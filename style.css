@@ -1,0 +1,91 @@
+.title-text{
+    text-align: center;
+    margin-bottom: 250px;
+
+}
+.first-text{
+    font-family: "Sacramento", cursive;
+    font-size: 5.625rem;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    
+}
+
+.second-text{  
+     font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.car{
+    width: 350px;
+}
+.classic-women{
+    position: relative;
+    top:50px;
+}
+.middle{
+    background-color: brown;
+    color: white;
+}
+
+
+.text-center{
+    text-align: center;
+    margin-bottom: 150px;
+    
+}   
+h2{
+    text-align: center;
+}
+
+.rounded{
+    border-radius: 50%;
+    margin: 30px;
+    
+}
+
+
+.middle2{
+    display: grid;
+    grid-template-columns:0.5fr 1fr;
+    grid-template-rows: repeat(1,1fr);
+    width: 50%;
+    row-gap: 100px;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+        
+}
+
+
+    
+@media (max-width: 1200px){
+    
+    .header{
+        display: flex;
+        gap:0;
+    }
+    .car{
+        max-width:400px;
+        min-width:200px;
+    }
+    .classic-women{
+       max-height: 300px;
+       min-width: 100px;
+
+
+    }
+    .middle2{
+        margin-left: 100px;
+    
+    }
+
+}
